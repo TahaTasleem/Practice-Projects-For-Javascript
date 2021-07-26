@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0f90a86f54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="progress_bar.css">
+    <title>Custom Video Player</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Custom Video Player</h1>
+    </div>
+    <video src="010 Flutter Windows Setup.mp4" class="screen" id="video"></video>
+    <div class="controls">
+        <button class="btn" id="play">
+            <i class="far fa-play-circle fa-3x"></i>
+        </button>
+        <button class="btn" id="stop">
+            <i class="far fa-stop-circle fa-3x"></i>
+        </button>
+        <input type="range" class="prog_bar" id="bar" step="0.1" min="0" max="100" value="0">
+
+        <span class="timer" id="timer1">00:00</span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

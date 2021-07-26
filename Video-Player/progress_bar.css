@@ -1,0 +1,11 @@
+.prog_bar
+{
+    width: 100%;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+.prog_bar:focus
+{
+    outline: none;
+}
