@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*
+{
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #F3F2C9;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 80vh;
+    padding: 10px;
+}
+
+h1
+{
+    color:#753422;
+}
+p
+{
+    font-size: 20px;
+    color: #B05B3B;
+    justify-content: center;
+}
+.currency-two .swap
+{
+    color:#B05B3B;
+    background:transparent;
+    border: none;
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.currency-one
+{
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency-one select
+{
+    color: #753422;
+    padding: 5px 15px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #753422;
+    border-radius: 2px;
+}
+.currency-two select
+{
+    color: #753422;
+    padding: 5px 15px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #753422;
+    border-radius: 2px;
+}
+.input-one
+{
+    color: black;
+    border: none;
+    background:transparent;
+    font-size: 20px;
+    text-align:right;
+}
+.input-two
+{
+    color: black;
+    border: none;
+    background:transparent;
+    font-size: 20px;
+    text-align:right;
+}
